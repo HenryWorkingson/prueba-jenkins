@@ -1,0 +1,10 @@
+Bundle-Name: employee-service-api
+Bundle-SymbolicName: com.liferay.service.customer.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.service.customer.exception,\
+	com.liferay.service.customer.model,\
+	com.liferay.service.customer.service,\
+	com.liferay.service.customer.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../employee-service-service/service.xml

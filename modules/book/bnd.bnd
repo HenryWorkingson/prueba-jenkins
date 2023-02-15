@@ -1,0 +1,4 @@
+Bundle-Name: book
+Bundle-SymbolicName: com.cofares.test
+Bundle-Version: 1.0.0
+Export-Package: com.cofares.test.constants

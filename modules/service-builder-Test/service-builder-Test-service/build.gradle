@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:service-builder-Test:service-builder-Test-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+
+buildService {
+	apiDir = "../service-builder-Test-api/src/main/java"
+}
+
+group = "com.cofares.test"

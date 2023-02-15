@@ -1,0 +1,10 @@
+Bundle-Name: service-builder-Test-api
+Bundle-SymbolicName: com.cofares.test.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.cofares.test.exception,\
+	com.cofares.test.model,\
+	com.cofares.test.service,\
+	com.cofares.test.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../service-builder-Test-service/service.xml

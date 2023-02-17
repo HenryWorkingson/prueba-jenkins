@@ -11,7 +11,7 @@
 
 <portlet:resourceURL id="cambiarCurso" var="cambiarCursoURL"/>
 
-
+<input type=hidden />
 
 <html>
 <head>
